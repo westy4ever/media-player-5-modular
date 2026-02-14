@@ -1,0 +1,5 @@
+python
+
+self.filled = '█'   # Requires Unicode support
+self.empty = '░'    # Not in Enigma2 fonts
+bar = f"[{filled * 5}{empty * 5}]"  # [█████░░░░░]
